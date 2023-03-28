@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/my-nth-react-app/static/css/main.a6022c3d.css",
-    "main.js": "/my-nth-react-app/static/js/main.dad860c3.js",
+    "main.js": "/my-nth-react-app/static/js/main.e587ee07.js",
     "static/js/787.1518cedf.chunk.js": "/my-nth-react-app/static/js/787.1518cedf.chunk.js",
     "index.html": "/my-nth-react-app/index.html",
     "main.a6022c3d.css.map": "/my-nth-react-app/static/css/main.a6022c3d.css.map",
-    "main.dad860c3.js.map": "/my-nth-react-app/static/js/main.dad860c3.js.map",
+    "main.e587ee07.js.map": "/my-nth-react-app/static/js/main.e587ee07.js.map",
     "787.1518cedf.chunk.js.map": "/my-nth-react-app/static/js/787.1518cedf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a6022c3d.css",
-    "static/js/main.dad860c3.js"
+    "static/js/main.e587ee07.js"
   ]
 }
