@@ -1,17 +1,17 @@
 import { useParams } from "react-router-dom";
-import blogs from "./db";
+import useFetch from "./useFetch";
 
 const BlogDetails = () => {
 
     const { id } = useParams();
+    const { data: blog, error, isPending } = useFetch('http://localhost:8000/blogs/' + id);
 
-    // Get the blog from the json file
-    const blog = blogs.blogs.find((blog) => blog.id === parseInt(id));
-
-    return (
+    return ( 
         <div className="blog-details">
 
-        { blog && (
+            { isPending && <div>Loading...</div> }
+            { error && <div>{ error }</div> }
+            { blog && (
                 <article>
                     <h2>{blog.title }</h2>
                     <p>By { blog.author }</p>
@@ -21,5 +21,5 @@ const BlogDetails = () => {
         </div>
      );
 }
-
+ 
 export default BlogDetails;
