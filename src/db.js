@@ -1,4 +1,4 @@
-{
+const blogData = {
     "blogs": [
       {
         "title": "Creating a React App",
@@ -26,4 +26,4 @@
       }
     ]
   }
-  
+export default blogData;
